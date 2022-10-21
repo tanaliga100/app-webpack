@@ -1,0 +1,33 @@
+$primary-color: white;
+$secondary-color: teal;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $primary-color;
+  text-align: center;
+}
+h1 {
+  background-color: $secondary-color;
+  padding: 1rem;
+}
+#container {
+  margin: 1rem;
+}
+.cards {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  color: teal;
+}
+.btn {
+  color: white;
+  background-color: $secondary-color;
+  padding: 1rem;
+}
