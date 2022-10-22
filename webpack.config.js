@@ -8,7 +8,7 @@ module.exports = {
     bundle: path.resolve(__dirname, "src/index.js"),
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "[name][contenthash].js",
     clean: true,
     assetModuleFilename: "[name][ext]",
@@ -38,6 +38,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html",
     }),
-    new BundleAnalyzerPlugin(),
   ],
 };
